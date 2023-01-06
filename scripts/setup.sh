@@ -1,7 +1,7 @@
 #/bin/sh
 lake update
 lake exe cache get
-lake build
+lake build #fails
 lake clean
 lake exe cache clean!
-lake build
+lake build #works
